@@ -1,5 +1,5 @@
 # Ping
-一个使用 C++ 实现的 ICMP Ping 工具。该工具可以发送 ICMP 回显请求并接收响应，以测量网络延迟和丢包率。
+一个使用 C/C++ 实现的 ICMP Ping 工具。该工具可以发送 ICMP 回显请求并接收响应，以测量网络延迟和丢包率。
 
 ## 功能
 
@@ -11,17 +11,11 @@
 ## 目录结构
 ```
 .
+├── CMakeLists.txt
 ├── LICENSE
+├── Ping.cpp
+├── Ping.h
 ├── README.md
-├── c
-│   ├── CMakeLists.txt
-│   ├── build
-│   └── ping.c
-└── cpp
-    ├── CMakeLists.txt
-    ├── Ping.cpp
-    ├── Ping.h
-    ├── build
-    └── main.cpp
+└── main.cpp
 
 ```
